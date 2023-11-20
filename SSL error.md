@@ -24,4 +24,6 @@ conda config --set ssl_verify false
 
 ------------------------------
 
+# Others 
+
 python - 'Conda' is not recognized as internal or external command - Stack Overflow
