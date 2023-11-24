@@ -1,6 +1,6 @@
 ## PuLP
 
- -The Optimisation Process — PuLP 2.7.0 documentation: 
+ -The Optimisation Process — PuLP 2.7.0 documentation:
     - https://coin-or.github.io/pulp/main/the_optimisation_process.html
 
 - Tutorial: Python, PuLP and GLPK | PPT:
