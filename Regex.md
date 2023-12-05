@@ -18,8 +18,11 @@ https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-
 # Code
 
 import re
+
 y = ""
-if(re.search("(-+)\d{2}$|\d{4}|(\/+)\d{2}$", date)): # 2023-11-13
+
+if(re.search("(-+)\d{2}$|\d{4}|(\/+)\d{2}$", date)): 
+
    y = re.search("\d{2}$", re.search("(-+)\d{2}$|\d{4}|(\/+)\d{2}$", date).group()).group()
 
 
