@@ -23,7 +23,7 @@ y = ""
 
 if(re.search("(-+)\d{2}$|\d{4}|(\/+)\d{2}$", date)): 
 
-   y = re.search("\d{2}$", re.search("(-+)\d{2}$|\d{4}|(\/+)\d{2}$", date).group()).group()
+      y = re.search("\d{2}$", re.search("(-+)\d{2}$|\d{4}|(\/+)\d{2}$", date).group()).group()
 
 
 
