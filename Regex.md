@@ -25,10 +25,10 @@ https://www.w3schools.com/python/trypython.asp?filename=demo_regex_match
 https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference
 
 # Code
-
+```python
 import re
 
 if re.search("(-+)\d{2}$|\d{4}|(\/+)\d{2}$", date): # 2023-11-13
             
       date = " " + re.search("\d{2}$", re.search("(?<!\d)\d{4}(?!\d)|(-+)\d{2}$|(\/+)\d{2}$", date).group()).group()
-
+``
