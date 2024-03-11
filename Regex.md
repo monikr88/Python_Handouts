@@ -2,7 +2,11 @@
 https://regex101.com/r/M5ZVY2/1
 
 regex:
+```python
+
 "(?<!\d)\d{4}(?!\d)|(-+)\d{2}$|(\/+)\d{2}$"gm
+
+```
 
 test:
 
@@ -31,4 +35,4 @@ import re
 if re.search("(-+)\d{2}$|\d{4}|(\/+)\d{2}$", date): # 2023-11-13
             
       date = " " + re.search("\d{2}$", re.search("(?<!\d)\d{4}(?!\d)|(-+)\d{2}$|(\/+)\d{2}$", date).group()).group()
-``
+```
