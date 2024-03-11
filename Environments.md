@@ -1,7 +1,7 @@
 # Creating an env
 
 ```python
-conda env create --name scoreOriginacionTrain
+conda env create --name new_env
 ```
 
 # Cleaning an env
