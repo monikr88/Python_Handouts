@@ -21,6 +21,14 @@ conda config --set ssl_verify false
 
 À partir de l’adresse <https://stackoverflow.com/questions/33699577/conda-update-fails-with-ssl-error-certificate-verify-failed> 
 
+------------------------------
+
+# Proxy
+
+File .condarc 
+
+conda config --setproxy_servers.http http://id:pw@address:port
+conda config --setproxy_servers.https https://id:pw@address:port
 
 ------------------------------
 
