@@ -1,7 +1,12 @@
 # Creating an env
 
 ```python
+# Conda
 conda env create --name new_env
+
+# Python
+py -m venv test_env
+
 ```
 
 # Cleaning an env
