@@ -4,6 +4,8 @@
 # Conda
 conda env create --name new_env
 
+conda env create --name envname --file=environments.yml
+
 # Python
 py -m venv test_env
 
