@@ -27,8 +27,13 @@ conda config --set ssl_verify false
 
 File .condarc 
 
-conda config --setproxy_servers.http http://id:pw@address:port
-conda config --setproxy_servers.https https://id:pw@address:port
+conda config --set proxy_servers.http http://id:pw@address:port
+
+conda config --set proxy_servers.https https://id:pw@address:port
+
+conda config --set HTTP_PROXY=http://id:pw@address:port
+
+conda config --set HTTPS_PROXY=https://id:pw@address:port
 
 ------------------------------
 
